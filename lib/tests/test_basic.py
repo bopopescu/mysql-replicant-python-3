@@ -38,9 +38,9 @@ class TestPosition(unittest.TestCase):
         
     def testSimple(self):
         positions = [
-            server.Position('master-bin.00001', 4711),
-            server.Position('master-bin.00001', 9393),
-            server.Position('master-bin.00002', 102),
+            server.Position('main-bin.00001', 4711),
+            server.Position('main-bin.00001', 9393),
+            server.Position('main-bin.00002', 102),
             ]
  
         for position in positions:
